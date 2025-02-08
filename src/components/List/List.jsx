@@ -1,7 +1,4 @@
-import './List.css';
-
 const List = ({ users, onFetchData }) => {
-
    return (
       <div className='list-group'>
          {users.map((user) => (
